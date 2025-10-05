@@ -55,6 +55,13 @@ The project follows a standard machine learning workflow:
 5. **Evaluation & Comparison**: Both the baseline and tuned models are evaluated on the test set. Performance is measured using accuracy, precision, recall, F1-score, and a confusion matrix.
 
 ---
+### Visualization Insights
+
+- The **decision boundary** clearly demonstrates improved class separation after tuning, aligning with Cortes & Vapnik’s principle of maximizing the margin.
+- The **confusion matrices** show that misclassifications between *Versicolor* and *Virginica* are fully resolved in the tuned model.
+- The **kernel comparison** highlights how the RBF kernel achieved the highest accuracy, confirming its robustness for nonlinear class separation.
+- The **support vector plot** visually validates that SVM relies on a few critical data points to define its decision surface.
+- The **Learning curve** helps verify if the model is underfitting or overfitting.
 
 ## Results
 
